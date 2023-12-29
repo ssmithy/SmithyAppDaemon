@@ -1,0 +1,5 @@
+# Py stuff
+__pycache__
+
+# app daemon
+secrets.yaml
