@@ -22,7 +22,7 @@ git config --global user.email
 Ctrl + Shift + P -> Command Palette
 - Python: Create Environment...
 - venv
-- python 3.10.*
+- python 3.10.12
 - **NB:** Activate the environment with `source vvv/bin/activate`
 
 
