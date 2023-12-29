@@ -23,6 +23,6 @@ Ctrl + Shift + P -> Command Palette
 - Python: Create Environment...
 - venv
 - python 3.10.12
-- **NB:** Activate the environment with `source vvv/bin/activate`
+- **NB:** Activate the environment with `source .venv/bin/activate`
 
 
