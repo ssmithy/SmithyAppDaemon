@@ -20,9 +20,7 @@ git config --global user.email
 ## Setup VS Code:
 
 Ctrl + Shift + P -> Command Palette
-
-Python Create Environment
-
-NB: Activate the environment with `source vvv/bin/activate`
+- Python Create Environment
+- *NB:* Activate the environment with `source vvv/bin/activate`
 
 
