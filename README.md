@@ -25,6 +25,6 @@ Ctrl + Shift + P -> Command Palette
 - python 3.10.12
 - **NB1:** change directory if needed e.g. `cd /appdaemon/conf`
 - **NB1:** Activate the environment with `source .venv/bin/activate`
-- `(.venv) smithy@myserver:/path/to/conf`
+- `(.venv) smithy@myserver:/path/to/conf$`
 
 
