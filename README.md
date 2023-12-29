@@ -27,4 +27,5 @@ Ctrl + Shift + P -> Command Palette
 - **NB1:** Activate the environment with `source .venv/bin/activate`
 - `(.venv) smithy@myserver:/path/to/conf$`
 
+## Setup Virtual Environment
 
