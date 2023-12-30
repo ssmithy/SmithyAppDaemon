@@ -1,16 +1,17 @@
 appdaemon:
-  latitude: 0
-  longitude: 0
-  elevation: 30
-  time_zone: Europe/Berlin
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: !secret elevation
+  time_zone: !secret tz
   plugins:
     HASS:
       type: hass
-      ha_url:
-      token:
+      ha_url: !secret hass_url
+      token: !secret hass_token
       cert_verify: True
 http:
-  url: http://0.0.0.0:5050
+  url: !secret appdaemon_url
+  password: !secret appdaemon_password
 admin:
 api:
 hadashboard:
