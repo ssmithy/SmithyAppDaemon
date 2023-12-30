@@ -5,6 +5,7 @@
 I use VS Code for my coding needs. 
 
 Download VS Code, Python, Git, SSH Server/Client etc.
+Install Extensions Docker, Python, Remote-SSH
 
 ## Configure git:
 
@@ -29,3 +30,10 @@ Ctrl + Shift + P -> Command Palette
 
 ## Setup Virtual Environment
 
+Install packages `pip install xyz`
+- appdaemon
+- appdaemon-testing
+- pytest
+
+This Tutorial walks through testing custom apps:
+https://pypi.org/project/appdaemon-testing/
