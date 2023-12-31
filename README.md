@@ -7,7 +7,7 @@ I use VS Code for my coding needs.
 - Download VS Code, Python, Git, SSH Server/Client etc.
 - Install Extensions Docker, Python, Remote-SSH
 
-## Configure git:
+### Configure git:
 
 ```
 git config --global user.name NAME
