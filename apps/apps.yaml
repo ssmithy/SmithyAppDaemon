@@ -1,3 +1,13 @@
 hello_world:
   module: hello
   class: HelloWorld
+
+set_volume:
+  module: setvolume
+  class: SetVolume
+  speaker: !secret lvr_spk
+  #dayStart: Integer hour the day starts, default 7
+  #nightStart: Integer hour night time starts, default 20
+  normalVolume: 80
+  nightVolume: 35
+  enforce: True
