@@ -21,3 +21,23 @@ def test_init(hass_driver, app_fixture: SetVolume):
     assert app_fixture.nightVolume == 35
     assert app_fixture.enforce == True
 
+from freezegun import freeze_time
+import datetime
+
+@freeze_time("2012-01-14")
+def test():
+    assert datetime.datetime.now() == datetime.datetime(2012, 1, 14)
+
+def test_manual_tick():
+    initial_datetime = datetime.datetime(year=1, month=7, day=12,
+                                        hour=15, minute=6, second=3)
+    with freeze_time(initial_datetime) as frozen_datetime:
+        assert frozen_datetime() == initial_datetime
+
+        frozen_datetime.tick()
+        initial_datetime += datetime.timedelta(seconds=1)
+        assert frozen_datetime() == initial_datetime
+
+        frozen_datetime.tick(delta=datetime.timedelta(seconds=10))
+        initial_datetime += datetime.timedelta(seconds=10)
+        assert frozen_datetime() == initial_datetime
